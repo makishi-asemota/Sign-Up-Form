@@ -18,30 +18,51 @@
       </div>
 
      <div id="right">
-         <p class="header">KeefKustoms is an upcoming exciting handmade headwear brand based out of the DMV! With new and exciting pieces dropping every week, you don't want to miss out!<br>Sign up now for updates on exclusive drops and content!</br></p>
+         <p class="header">KeefKustoms is an upcoming exciting handmade headwear brand based out of the DMV! With new and exciting pieces dropping every week, you don't want to miss out!<br><br>Sign up now for updates on exclusive drops and content!</p>
             <div>
              <form action="example.com/path" method="post">
-                <label for="first_name">First Name: </label>
-                <input type="text" name="fname" id="first_name" required>
+                 <legend>Let's Do This!</legend>
+                 <fieldset>
+                    <div class="block">
+                      <label for="first_name">First Name: </label>
+                      <input type="text" name="fname" id="first_name" required>
+                    </div>
 
-                <label for="last_name">Last Name: </label>
-                <input type="text" name="lname" id="last_name" required>
+                    <div class="block">
+                      <label for="last_name">Last Name: </label>
+                      <input type="text" name="lname" id="last_name" required>
+                    </div>
+                 </fieldset>
 
-                <label for="user_email">Email: </label>
-                <input type="email" name="email" id="user_email" required>
+                 <fieldset>
+                    <div class="block">
+                      <label for="user_email">Email: </label>
+                      <input type="email" name="email" id="user_email" required>
+                    </div>
 
-                <label for="phone">Phone Number: </label>
-                <input type="tel" name="phone" id="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" placeholder="123-456-7890"required>
+                    <div class="block">
+                      <label for="phone">Phone Number: </label>
+                      <input type="tel" name="phone" id="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" placeholder="123-456-7890"required>
+                    </div>
+                 </fieldset>
+            
+                 <fieldset>
+                    <div class="block">
+                      <label for="user_password">Password: </label>
+                      <input type="text" name="password" id="user_password">
+                    </div>
 
-                <label for="user_password">Password: </label>
-                <input type="text" name="password" id="user_password">
-
-                <label for="confirmpassword">Confirm Password: </label>
-                <input type="text" name="cpassword" id="confirmpassword" required>
+                    <div class="block">
+                      <label for="confirmpassword">Confirm Password: </label>
+                      <input type="text" name="cpassword" id="confirmpassword" required>
+                    </div>
+                 </fieldset>
              </form>
             </div> 
-         </form>
-     </div>
+            <div class="button-area">
+                <button type="submit">Create Account</button>
+                <p>Already have an account? <a href="#">Log in</a></p>
+             </div>
     </div>
 </body>
 </html>
