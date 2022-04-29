@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign-Up Form</title>
+</head>
+<body>
+    <div id="container">
+        <div id="left">
+         <img src="Pose.JPEG">
+         <div id="image"><p class="font">KeefKustoms</p></div>
+      </div>
+
+     <div id="right">
+         <p class="header">KeefKustoms is an upcoming exciting handmade headwear brand based out of the DMV! With new and exciting pieces dropping every week, you don't want to miss out!<br>Sign up now for updates on exclusive drops and content!</br></p>
+            <div>
+             <form action="example.com/path" method="post">
+                <label for="first_name">First Name: </label>
+                <input type="text" name="fname" id="first_name" required>
+
+                <label for="last_name">Last Name: </label>
+                <input type="text" name="lname" id="last_name" required>
+
+                <label for="user_email">Email: </label>
+                <input type="email" name="email" id="user_email" required>
+
+                <label for="phone">Phone Number: </label>
+                <input type="tel" name="phone" id="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" placeholder="123-456-7890"required>
+
+                <label for="user_password">Password: </label>
+                <input type="text" name="password" id="user_password">
+
+                <label for="confirmpassword">Confirm Password: </label>
+                <input type="text" name="cpassword" id="confirmpassword" required>
+             </form>
+            </div> 
+         </form>
+     </div>
+    </div>
+</body>
+</html>
