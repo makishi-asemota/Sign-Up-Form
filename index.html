@@ -25,12 +25,12 @@
                  <fieldset>
                     <div class="block">
                       <label for="first_name">First Name: </label>
-                      <input type="text" name="fname" id="first_name" required>
+                      <input type="text" name="fname" id="first_name" required pattern="[A-Za-z]+">
                     </div>
 
                     <div class="block">
                       <label for="last_name">Last Name: </label>
-                      <input type="text" name="lname" id="last_name" required>
+                      <input type="text" name="lname" id="last_name" required pattern="[A-Za-z]+">
                     </div>
                  </fieldset>
 
@@ -49,12 +49,12 @@
                  <fieldset>
                     <div class="block">
                       <label for="user_password">Password: </label>
-                      <input type="text" name="password" id="user_password">
+                      <input type="text" name="password" id="password">
                     </div>
 
                     <div class="block">
                       <label for="confirmpassword">Confirm Password: </label>
-                      <input type="text" name="cpassword" id="confirmpassword" required>
+                      <input type="text" name="cpassword" id="confirmpassword" oninput="check(this)" required>
                     </div>
                  </fieldset>
              </form>
@@ -62,7 +62,8 @@
             <div class="button-area">
                 <button type="submit">Create Account</button>
                 <p style="font-family:var(--font-style)">Already have an account? <a href="#">Log in</a></p>
-             </div>
+            </div>
     </div>
+    <script type="text/javascript" src="script.js"></script>
 </body>
 </html>
